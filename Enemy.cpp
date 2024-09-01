@@ -27,13 +27,12 @@ void Enemy::Update() {
 	//// 行列計算
 	//worldTransform_.UpdateMatrix();
 	//  移動
-	worldTransform_.translation_.x += velocity_.x;
-	// 回転アニメーション
-	walkTimer_ += 1.0f / 60.0f;
-	worldTransform_.rotation_.x = std::sin(std::numbers::pi_v<float> * 2.0f * walkTimer_ / kWalkMotionTime);
+	//worldTransform_.translation_.x += velocity_.x;
+	//// 回転アニメーション
+	//walkTimer_ += 1.0f / 60.0f;
+	//worldTransform_.rotation_.x = std::sin(std::numbers::pi_v<float> * 2.0f * walkTimer_ / kWalkMotionTime);
 	// 行列計算
 	worldTransform_.UpdateMatrix();
-
 
 }
 

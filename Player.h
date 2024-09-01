@@ -47,7 +47,7 @@ public:
 	void WallHit(const CollisionMapInfo& info);
 	void OnGround(const CollisionMapInfo& info);
 
-	static inline const float kAcceleration = 0.01f;
+	static inline const float kAcceleration = 0.05f;
 	static inline const float kAttenuation = 0.5f;
 	static inline const float kLimitRunSpeed = 0.8f;
 	//Vector3 velocity_ = {};

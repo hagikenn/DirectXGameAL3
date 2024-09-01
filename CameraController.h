@@ -30,7 +30,7 @@ public:
 	Vector3 targetOffset_ = {0, 0, -15.0f};
 	const ViewProjection& GetViewProjection() const { return viewProjection_; }
 
-	Rect movableArea_ = {0, 100, 0, 100};
+	Rect movableArea_ = {0, 200, 0, 200};
 
 	//Vector3 targetOffset_ = {0, 0, -15.0f};
 
